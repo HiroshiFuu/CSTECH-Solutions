@@ -1,0 +1,69 @@
+.navbar-default {
+	background-color: rgba(255, 255, 255, 0.35);
+}
+
+.navbar-default .navbar-nav {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.navbar-header {
+	position: relative;
+	top: -10px;
+}
+
+.navbar-default .navbar-toggle {
+	top: 8px;
+}
+
+.page-header {
+	padding: 170px 0 200px;
+}
+
+.cps-section-padding {
+	padding: 60px 0;
+}
+
+.page-header.style-bg-img {
+	background-image: url("../images/case-header.jpg");
+}
+
+@media (min-width: 1600px) {
+	.container {
+		width: 1540px;
+	}
+}
+
+.cps-about-img img {
+	display: block;
+}
+
+.style-3 .cps-testimonials-wrap .cps-testimonial-item blockquote:before {
+	content: "\e643";
+}
+
+.style-3 .cps-testimonials-wrap .cps-testimonial-item .cps-commenter-pic.rect {
+	border-radius: unset;
+    width: 160px;
+    top: -40px;
+    margin-left: -80px;
+}
+
+.style-3 .cps-testimonials-wrap .cps-testimonial-item .cps-commenter-pic.rect-long {
+	border-radius: unset;
+    width: 320px;
+    top: -40px;
+    margin-left: -160px;
+}
+
+.navbar-default .navbar-brand {
+	margin: 0;
+}
+
+.affix-top .navbar-brand {
+	margin-top: 5px;
+}
+
+.navbar-brand>img {
+	height: 60px
+}

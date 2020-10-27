@@ -1,0 +1,14 @@
+@media screen and (max-width: 991px) {
+	.navbar-default li.languagepicker {
+		margin-left: 15px;
+	}
+}
+
+.navbar-default li.languagepicker a {
+	display: inline;
+	padding: 0px;
+}
+
+.languagepicker img {
+	margin-right: 10px;
+}
