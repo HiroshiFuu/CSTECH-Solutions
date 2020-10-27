@@ -11,7 +11,7 @@
     <!-- Page Header -->
     <div class="page-header">
         <div class="container">
-            <h2 class="page-title">About SaaSera</h2>
+            <h2 class="page-title">About Us</h2>
         </div>
     </div>
     <!-- Page Header End -->
@@ -25,16 +25,16 @@
                         <div class="col-sm-4">
                             <div class="cps-service-box">
                                 <div class="cps-service-icon">
-                                    <span class="ti-layout-media-center-alt"></span>
+                                    <span class="ti-target"></span>
                                 </div>
                                 <h4 class="cps-service-title">IT Support</h4>
-                                <p class="cps-service-text">Deal with any technical difficulties, setuping domain, file server and VPN solution.</p>
+                                <p class="cps-service-text">Deal with any technical difficulties, setup domain, file server and VPN solution.</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="cps-service-box">
                                 <div class="cps-service-icon">
-                                    <span class="ti-mobile"></span>
+                                    <span class="ti-cloud"></span>
                                 </div>
                                 <h4 class="cps-service-title">IT Infrastructure</h4>
                                 <p class="cps-service-text">Enable resource to be accessiable anywhere with internet, provide network solution and CCTV system.</p>
@@ -43,7 +43,7 @@
                         <div class="col-sm-4">
                             <div class="cps-service-box">
                                 <div class="cps-service-icon">
-                                    <span class="ti-panel"></span>
+                                    <span class="ti-desktop"></span>
                                 </div>
                                 <h4 class="cps-service-title">Software Development</h4>
                                 <p class="cps-service-text">Take idea from client and convert that idea to a live and bug free software.</p>

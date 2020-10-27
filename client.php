@@ -11,7 +11,7 @@
 	<!-- Page Header -->
 	<div class="page-header">
 		<div class="container">
-			<h2 class="page-title">Portfolio</h2>
+			<h2 class="page-title">Our Clients</h2>
 		</div>
 	</div>
 	<!-- Page Header End -->
