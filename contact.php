@@ -7,11 +7,9 @@
     <script>
     let map;
     function initMap() {
-        var map_div = $("#google-map");
-        //Taking data attribute from map wrapper
-        var mapLat = parseFloat(map_div.data('lat'));
-        var mapLng = parseFloat(map_div.data('lng'));
-        var mapZoom = parseInt(map_div.data('zoom'));
+        let mapLat = 1.4516124721421075;
+        let mapLng = 103.79199998969473;
+        let mapZoom = 18;
 
         //Processing wrapper data attribute to coordinate
         var mapOptions = {
@@ -108,7 +106,7 @@
         <!-- Location Map -->
         <div class="cps-section map-area" id="map-area">
             <div class="container">
-                <div class="google-map" id="google-map" data-lat="1.4516124721421075" data-lng="103.79199998969473" data-zoom="18"></div>
+                <div class="google-map" id="google-map"></div>
             </div>
         </div>
         <!-- Location Map End -->
