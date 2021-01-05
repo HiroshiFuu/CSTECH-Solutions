@@ -3,6 +3,56 @@
 
 <head>
     <?php include 'head.html';?>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZLKY1KSaVuOcmP9fisyhQ8PG4hIFgi8o&callback=initMap" async defer></script>
+    <script>
+    let map;
+    function initMap() {
+        var map_div = $("#google-map");
+        //Taking data attribute from map wrapper
+        var mapLat = parseFloat(map_div.data('lat'));
+        var mapLng = parseFloat(map_div.data('lng'));
+        var mapZoom = parseInt(map_div.data('zoom'));
+
+        //Processing wrapper data attribute to coordinate
+        var mapOptions = {
+            center: {
+                lat: mapLat,
+                lng: mapLng
+            },
+            zoom: mapZoom,
+            scrollwheel: false
+        };
+
+        //Initiating map
+        map = new google.maps.Map(document.getElementById("google-map"), mapOptions);
+
+        //Map Marker
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(mapLat, mapLng),
+            map: map,
+            icon: './images/map-marker.png'
+        });
+
+        var contentString = '<div id="content" style="margin-left:15px;margin-top:5px;margin-bottom:15px;margin-right:5px;">'+
+        '<div id="siteNotice">'+
+        '</div>'+
+        '<br /><br /><img src="./images/logo.png" height=80px><br /><br />'+
+        '<div id="bodyContent">'+
+        '254 Woodlands Industrial Park E5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />' +
+        'Singapore 757309 <br /> '+
+        '(65) 9119 4045 '+
+        '</div>'+
+        '</div>';
+
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map,marker);
+        });
+    }
+    </script>
 </head>
 
 <body>
@@ -18,7 +68,7 @@
 
     <div class="cps-main-wrap">
         <!-- Service Box -->
-        <div class="cps-section cps-section-padding cps-bottom-0" id="service-box">
+        <div class="cps-section cps-section-padding" id="service-box">
             <div class="container">
                 <div class="row">
                     <div class="cps-service-boxs">
@@ -57,7 +107,9 @@
         
         <!-- Location Map -->
         <div class="cps-section map-area" id="map-area">
-            <div class="google-map office-location" id="location" data-lat="1.330019" data-lng="103.875928" data-zoom="18"></div>
+            <div class="container">
+                <div class="google-map" id="google-map" data-lat="1.4516124721421075" data-lng="103.79199998969473" data-zoom="18"></div>
+            </div>
         </div>
         <!-- Location Map End -->
         
@@ -66,7 +118,6 @@
 
     <?php include 'footer.html';?>
     <?php include 'scripts.html';?>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmiJjq5DIg_K9fv6RE72OY__p9jz0YTMI"></script>
-    <script src="./js/map.js"></script>
+    <!-- <script src="./js/map.js"></script> -->
 </body>
 </html>

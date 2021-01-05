@@ -24,6 +24,12 @@
 	padding: 60px 0;
 }
 
+.map-area {
+	margin-top: 0px;
+	margin-bottom: 60px;
+	z-index: 999;
+}
+
 .page-header.style-bg-img {
 	background-image: url("../images/case-header.jpg");
 }
