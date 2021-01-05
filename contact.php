@@ -116,6 +116,5 @@
 
     <?php include 'footer.html';?>
     <?php include 'scripts.html';?>
-    <!-- <script src="./js/map.js"></script> -->
 </body>
 </html>
