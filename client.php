@@ -34,7 +34,7 @@
                         </div>
                         <div class="cps-testimonial-item">
                             <div class="cps-commenter-pic">
-                                <img src="images/client/888 Mokata Logo.png" alt="...">
+                                <img src="./images/client/888 Mokata Logo.png" alt="...">
                             </div>
                             <blockquote>CSTECH Solution provide good network solution and CCTV which allow us to access it anywhere with internet connection.</blockquote>
                             <h5 class="cps-reviewer-name">Deon Tan</h5>
@@ -43,7 +43,7 @@
                         </div>
                         <div class="cps-testimonial-item">
                             <div class="cps-commenter-pic rect-long">
-                                <img src="images/client/Deasco Offshore and marine Logo.png" alt="...">
+                                <img src="./images/client/Deasco Offshore and marine Logo.png" alt="...">
                             </div>
                             <blockquote>CSTECH Solution had provide very good solutions and IT Services. We engage them to setup Domain, file server and VPN Solution.</blockquote>
                             <h5 class="cps-reviewer-name">Mr Rajesh</h5>
@@ -52,7 +52,7 @@
                         </div>
                         <div class="cps-testimonial-item">
                             <div class="cps-commenter-pic rect">
-                                <img src="images/client/Global Training Services Logo.png" alt="...">
+                                <img src="./images/client/Global Training Services Logo.png" alt="...">
                             </div>
                             <blockquote>After CSTECH Solution took over the In-house IT support, they given us wonder solution which allow both my training centre (woodlands and senoko) to access same resources.</blockquote>
                             <h5 class="cps-reviewer-name">Ben Chong</h5>
@@ -61,7 +61,7 @@
                         </div>
                         <div class="cps-testimonial-item">
                             <div class="cps-commenter-pic rect">
-                                <img src="images/client/HLN Rubber Products Logo.png" alt="...">
+                                <img src="./images/client/HLN Rubber Products Logo.png" alt="...">
                             </div>
                             <blockquote>In this era, we are constantly in need of IT to help us advance our business. CSTECH Solution had played a pivotal role in our IT infrastructure and ensuring we are able to operate at optimal conditions.</blockquote>
                             <h5 class="cps-reviewer-name">Jane Tiong</h5>
@@ -70,7 +70,7 @@
                         </div>
                         <div class="cps-testimonial-item">
                             <div class="cps-commenter-pic rect">
-                                <img src="images/client/Sinjia Land Logo.png" alt="...">
+                                <img src="./images/client/Sinjia Land Logo.png" alt="...">
                             </div>
                             <blockquote>We were worried at first about outsourcing our IT matters. CSTECH Solution made it easy by explaining the various options and also customising a plan to fit our needs.</blockquote>
                             <h5 class="cps-reviewer-name">Connie Yap</h5>
@@ -79,7 +79,7 @@
                         </div>
                         <div class="cps-testimonial-item">
                             <div class="cps-commenter-pic rect">
-                                <img src="images/client/Shake & Swirl Logo.png" alt="...">
+                                <img src="./images/client/Shake & Swirl Logo.png" alt="...">
                             </div>
                             <blockquote>CSTECH Solutions helped me in setting up Email, website and given me very good cloud solution.</blockquote>
                             <h5 class="cps-reviewer-name">Tan Kim Keat</h5>
@@ -88,7 +88,7 @@
                         </div>
                         <div class="cps-testimonial-item">
                             <div class="cps-commenter-pic rect">
-                                <img src="images/client/West Connect Building Logo.jpg" alt="...">
+                                <img src="./images/client/West Connect Building Logo.jpg" alt="...">
                             </div>
                             <blockquote>CSTECH Solutions had provide us very good cloud solution which allow us to access resource anywhere with internet.</blockquote>
                             <h5 class="cps-reviewer-name">Guan Long</h5>
