@@ -87,7 +87,7 @@
                             <p class="cps-reviewer-company">Shake & Swirl</p>
                         </div>
                         <div class="cps-testimonial-item">
-                            <div class="cps-commenter-pic rect">
+                            <div class="cps-commenter-pic">
                                 <img src="./images/client/West Connect Building Logo.jpg" alt="...">
                             </div>
                             <blockquote>CSTECH Solutions had provide us very good cloud solution which allow us to access resource anywhere with internet.</blockquote>
