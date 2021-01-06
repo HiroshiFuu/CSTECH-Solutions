@@ -88,7 +88,7 @@
                         </div>
                         <div class="cps-testimonial-item">
                             <div class="cps-commenter-pic rect">
-                                <img src="images/client/2.1.jpg" alt="...">
+                                <img src="images/client/West Connect Building Logo.jpg" alt="...">
                             </div>
                             <blockquote>CSTECH Solutions had provide us very good cloud solution which allow us to access resource anywhere with internet.</blockquote>
                             <h5 class="cps-reviewer-name">Guan Long</h5>
